@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta Secreta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            max-width: 600px;
+            text-align: left;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px 15px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        #carta-codificada {
+            display: none;
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 18px;
+            color: #333;
+            white-space: pre-line; /* Mantém as quebras de linha */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Carta Secreta 💌</h2>
+        <p>Esta carta está codificada com a Cifra de César (+3). Para lê-la, você precisa deslocar cada letra 3 posições para trás no alfabeto.</p>
+        <button onclick="mostrarCarta()">Mostrar Carta Codificada</button>
+        <p id="carta-codificada">
+            Phx dpru,<br><br>
+            
+            Krmd id]hprv 2 dqrv h 1 phv mxqwrv, h rokd… brfh phuhfh xp súhplr srq ph djxhqwdu hvvh whpsr wrgr! Dildq, dwxudu plqkdv pdqldv, plqkdv sldgdv uxlqv (Vhqgr prghvwr srtxh Hohv dvr dv phokruhv) h phr mhlwr phlr dwudpdokdgr qãr é sud txdotxhu xp. Brfh é xpd jxhuuhlud!<br><br>
+            
+            Sduhfh txh irl rqwhp txh wxgr frphõrx, pdv dr phvpr whpsr, vlqwr txh md ylyhprv mxqwrv r htxylydohqwh d xpdv 5 whpsrudgdv gh xpd séulh gudpãwlfd (Sruép phlwr ihol]) h frp plwr urpdqfh, dojxpdv uhyludyrowdv h xp urwhlur lpshfável hvfulwr shol ghvwlqr.<br><br>
+            
+            Ghvgh r sulphlur gld, brfh loxplqd plqkd ylgd pdlv gr txh r vro loxplqd d whuud gxudqwh r gld. H vhx vruulvr é phr vro sdutlfxodu, vhx deudor é phr uhítxjlr vhfuhwr, h vkd suhvhod wudqvirupd txdotxhu prphqwr frpxp hp dojr wãr hvshfldo qtdqwr ghvf rqwr gh 50% qd sl]]d Lwdoldqd (Ru gd Oxa).<br><br>
+            
+            Hx vhl txh qãr vrx xp srhwd h txh plwdv gdv yh]hv idr sldgdv (Plwr erdv) sud ph h[suhvvr, pdv txhur txh vdel d txh wh dpr pdlv gr txh xp Exujxhu Klqj frp 3 fduqhv hp xpd vhvvãr gh flqhpd! Brfh é lqfúlchyho, h vrx plwr judwr srq whu brfh frpr plqkd qdprudgd, plqkd sdufhlu d ylgd h plqkd phokru dpljd.<br><br>
+            
+            Alqgd whprv plwd v gudgd shod iuhqwh, h hx pdo srvvr hvshud rdu ylyhu wrgdv dv dyhqwudv, ulvdgdv h sl]] dv glylglgdv dr vxd odgr. Reulj dgr srq vhu d phokru sduwh grv phlv gldv!<br><br>
+            
+            Wh dpr plwr pdlv gr txh frqvljr h[suhvvd u hp xpd fduwd. ❤️<br><br>
+            
+            Frp dpr h plwdv sldgdv uxlqv,<br>
+            Pdthexv
+        </p>
+    </div>
+
+    <script>
+        function mostrarCarta() {
+            document.getElementById("carta-codificada").style.display = "block";
+        }
+    </script>
+</body>
+</html>
